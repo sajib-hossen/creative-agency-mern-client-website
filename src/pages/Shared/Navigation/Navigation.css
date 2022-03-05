@@ -4,3 +4,12 @@
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.reguler-btn {
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+
+}

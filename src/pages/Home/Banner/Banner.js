@@ -7,7 +7,7 @@ import Navigation from "../../Shared/Navigation/Navigation";
 const Banner = () => {
   return (
     <div className="banner">
-      <Container>
+      <Container fluid>
         <Row className="banner-row">
           <Navigation />
           <Col sm={12} md={6} lg={6} className="banner-left">

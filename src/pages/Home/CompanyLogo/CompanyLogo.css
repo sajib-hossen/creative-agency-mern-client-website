@@ -1,0 +1,12 @@
+.company_image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.company_image img {
+    width: 8%;
+    color: rgb(182, 44, 44);
+}

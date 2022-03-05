@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Navigation.css";
 import logo from "../../../images/logos/logo.png";
 
@@ -9,7 +9,7 @@ const Navigation = () => {
       collapseOnSelect
       expand="lg"
       bg="bg-white"
-      className="mt-4"
+      className="mb-3"
       variant="light"
     >
       <Container>

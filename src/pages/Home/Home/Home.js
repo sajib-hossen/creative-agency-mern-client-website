@@ -4,6 +4,7 @@ import Footer from "../../Shared/Footer/Footer";
 import Banner from "../Banner/Banner";
 import Clients from "../Clients/Clients";
 import CompanyLogo from "../CompanyLogo/CompanyLogo";
+import Portfolio from "../Portfolio/Portfolio";
 import Services from "../Services/Services";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner />
       <CompanyLogo />
       <Services />
+      <Portfolio />
       <Clients />
       <Footer />
     </div>

@@ -1,0 +1,9 @@
+.portfolio {
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    max-width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

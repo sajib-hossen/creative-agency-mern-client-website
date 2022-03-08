@@ -33,7 +33,9 @@ const services = [
 const Services = () => {
   return (
     <Container>
-      <h2 className="text-center my-5">Provider awesome Services</h2>
+      <h2 className="text-center my-5 fw-bolder">
+        Provider awesome <span className="text-success">Services</span>{" "}
+      </h2>
       <Row sm={1} md={2} lg={3} className="text-center ms-2">
         {services.map((service) => (
           <Service service={service}></Service>

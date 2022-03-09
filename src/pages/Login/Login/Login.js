@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import loginimg from "../../../images/login (2).svg";
 import "./Login.css";
 
@@ -50,7 +51,11 @@ const Login = () => {
                 <button className="google_btn">Continue with Google</button>
                 <br />
                 <br />
-                <p> Don't have a account ? Create an acount </p>
+                <p>
+                  {" "}
+                  Don't have a account ?{" "}
+                  <Link to="/register">Create an acount</Link>{" "}
+                </p>
               </form>
             </div>
           </Col>

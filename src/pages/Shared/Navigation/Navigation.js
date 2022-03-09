@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Navigation.css";
 import logo from "../../../images/logos/logo.png";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -24,7 +25,10 @@ const Navigation = () => {
             <Nav.Link href="#pricing">Our Portfolio</Nav.Link>
             <Nav.Link href="#features">Our Term</Nav.Link>
             <Nav.Link href="#pricing">Contact Us</Nav.Link>
-            <button className="reguler-btn">Login</button>
+            <Link to="/login">
+              {" "}
+              <button className="reguler-btn">Login</button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
